@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://matla.zaplatform.com/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://matla.zaplatform.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matla.zaplatform.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://matla.zaplatform.com/"/>
+  </url>
+  <url>
+    <loc>https://matla.zaplatform.com/en/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://matla.zaplatform.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matla.zaplatform.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://matla.zaplatform.com/"/>
+  </url>
+  <url>
+    <loc>https://matla.zaplatform.com/privacy/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://matla.zaplatform.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matla.zaplatform.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://matla.zaplatform.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://matla.zaplatform.com/en/privacy/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://matla.zaplatform.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matla.zaplatform.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://matla.zaplatform.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://matla.zaplatform.com/terms/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://matla.zaplatform.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matla.zaplatform.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://matla.zaplatform.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://matla.zaplatform.com/en/terms/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://matla.zaplatform.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matla.zaplatform.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://matla.zaplatform.com/terms/"/>
+  </url>
+</urlset>

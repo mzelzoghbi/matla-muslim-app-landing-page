@@ -1,0 +1,21 @@
+# Matla (مطلع)
+
+> Matla is a free Arabic prayer-times app for iPhone and Apple Watch, made by Mohamed Zakaria El-Zoghbi (ZaPlatform, Cairo). Egypt first: the Egyptian General Authority of Survey method (Fajr 19.5°, Isha 17.5°) is the default. No ads, no accounts, no tracking across apps; the location never leaves the phone. The app's interface is Arabic only. Status (September 2026): in TestFlight testing, coming soon to the App Store (app id 6813938812).
+
+## Pages
+- [مطلع بالعربية](https://matla.zaplatform.com/): the main page, with every feature, screenshots and the FAQ.
+- [Matla in English](https://matla.zaplatform.com/en/): the same facts in English.
+- [Privacy policy](https://matla.zaplatform.com/privacy/) ([English](https://matla.zaplatform.com/en/privacy/)): no account or ads; anonymous usage and crash data via Google Firebase, switchable off in Settings; location stays on the device.
+- [Terms of use](https://matla.zaplatform.com/terms/) ([English](https://matla.zaplatform.com/en/terms/)): including the optional tips and the auto-renewing monthly thank-you subscription.
+
+## Facts
+- Prayer times: Egyptian General Authority of Survey (default), Umm al-Qura, Muslim World League, Karachi, ISNA and others; Asr school; per-prayer minute adjustment.
+- Adhan: several voices and a separate Fajr voice, Time Sensitive notifications; iOS caps a notification sound at 30 seconds, and the app plays the full adhan when opened.
+- Fajr alarm: an iOS system alarm (AlarmKit) that rings on silent or in a Focus, with an optional wake-up task (say the dhikr, walk, or scan a code) and a bedtime reminder worked back from Fajr.
+- Quran: the whole mushaf in the King Fahd Complex script (1441 AH print) with tajweed colours, offline; recitations from more than thirty reciters, with downloadable surahs.
+- Worship: morning, evening, sleep, waking and after-prayer athkar with sources; your own athkar («أذكاري»); tasbih; Qibla compass; Umm al-Qura Hijri calendar with a one- or two-day adjustment; occasions (Friday and al-Kahf, Sunnah fasts, Ramadan, the Eids).
+- Live: Makkah and Madinah via the Saudi Broadcasting Authority's official YouTube channels; Holy Quran Radio from Cairo.
+- Widgets (Home Screen, Lock Screen, StandBy), an optional Live Activity, and an Apple Watch app (times, Qibla, Digital Crown tasbih, complications).
+- Price: free. Optional tips and a monthly thank-you subscription unlock nothing.
+- Needs iOS 26.1 or later. No Android version yet.
+- Contact: zaplatform@gmail.com

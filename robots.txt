@@ -1,0 +1,5 @@
+# Everything here is public and meant to be read, by search engines and AI answer engines alike.
+User-agent: *
+Allow: /
+
+Sitemap: https://matla.zaplatform.com/sitemap.xml
