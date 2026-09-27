@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Matla: Prayer Times, Adhan &amp; Fajr Alarm for iPhone</title>
+<title>Matla: Prayer Times, Adhan &amp; Fajr Alarm App for iPhone</title>
 <meta name="description" content="Prayer times with the Egyptian Survey method, an on-time adhan, a real Fajr alarm and an offline mushaf. Free, no ads, no accounts. Arabic app.">
 <link rel="canonical" href="https://matla.zaplatform.com/en/">
 <link rel="alternate" hreflang="ar" href="https://matla.zaplatform.com/">
@@ -28,45 +28,139 @@
 <meta property="og:image:alt" content="Matla: prayer times, adhan and a Fajr alarm for iPhone and Apple Watch">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Matla: Prayer Times, Adhan &amp; Fajr Alarm">
-<meta name="twitter:description" content="Prayer times, an on-time adhan, a real Fajr alarm and an offline mushaf. Free, no ads, no accounts.">
+<meta name="twitter:description" content="Prayer times with the Egyptian Survey method, an on-time adhan, a real Fajr alarm and an offline mushaf. Free, no ads, no accounts.">
 <meta name="twitter:image" content="https://matla.zaplatform.com/img/og-en.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- Only the ayah needs a webfont; text= subsets Amiri Quran to its glyphs. Everything else is the system font. -->
-<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&amp;text=%D8%B3%D9%8E%D9%84%D9%8E%D9%B0%D9%85%D9%8C%20%D9%87%D9%90%D9%89%D9%8E%20%D8%AD%D9%8E%D8%AA%D9%8E%D9%91%D9%89%D9%B0%20%D9%85%D9%8E%D8%B7%D9%92%D9%84%D9%8E%D8%B9%D9%90%20%D9%B1%D9%84%D9%92%D9%81%D9%8E%D8%AC%D9%92%D8%B1%D9%90&amp;display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Amiri+Quran&amp;text=%D8%B3%D9%8E%D9%84%D9%8E%D9%B0%D9%85%D9%8C%20%D9%87%D9%90%D9%89%D9%8E%20%D8%AD%D9%8E%D8%AA%D9%8E%D9%91%D9%89%D9%B0%20%D9%85%D9%8E%D8%B7%D9%92%D9%84%D9%8E%D8%B9%D9%90%20%D9%B1%D9%84%D9%92%D9%81%D9%8E%D8%AC%D9%92%D8%B1%D9%90&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri+Quran&amp;text=%D8%B3%D9%8E%D9%84%D9%8E%D9%B0%D9%85%D9%8C%20%D9%87%D9%90%D9%89%D9%8E%20%D8%AD%D9%8E%D8%AA%D9%8E%D9%91%D9%89%D9%B0%20%D9%85%D9%8E%D8%B7%D9%92%D9%84%D9%8E%D8%B9%D9%90%20%D9%B1%D9%84%D9%92%D9%81%D9%8E%D8%AC%D9%92%D8%B1%D9%90&amp;display=swap"></noscript>
 <link rel="preload" as="image" href="../img/shots/today.webp" type="image/webp">
 <link rel="stylesheet" href="../landing.css">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "@id": "https://matla.zaplatform.com/#app",
-  "name": "Matla",
-  "alternateName": ["مطلع", "Matla: Prayer Times & Athan"],
-  "url": "https://matla.zaplatform.com/en/",
-  "description": "Prayer times, adhan, a Fajr alarm and the whole mushaf offline, using the Egyptian General Authority of Survey method by default. Free, with no ads and no accounts. The app is in Arabic.",
-  "operatingSystem": "iOS 26.1 or later, watchOS",
-  "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Prayer times",
-  "inLanguage": "ar",
-  "isAccessibleForFree": true,
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EGP", "url": "https://apps.apple.com/app/id6813938812" },
-  "downloadUrl": "https://apps.apple.com/app/id6813938812",
-  "installUrl": "https://apps.apple.com/app/id6813938812",
-  "screenshot": "https://matla.zaplatform.com/img/shots/today.jpg",
-  "image": "https://matla.zaplatform.com/img/icon-512.png",
-  "author": { "@type": "Person", "name": "Mohamed Zakaria El-Zoghbi", "url": "https://zaplatform.com/" },
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://zaplatform.com/#org",
-    "name": "ZaPlatform",
-    "url": "https://zaplatform.com/",
-    "logo": "https://matla.zaplatform.com/img/icon-512.png",
-    "email": "zaplatform@gmail.com",
-    "founder": { "@type": "Person", "name": "Mohamed Zakaria El-Zoghbi" }
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://zaplatform.com/#org",
+      "name": "ZaPlatform",
+      "url": "https://zaplatform.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://matla.zaplatform.com/img/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "zaplatform@gmail.com",
+      "founder": {
+        "@id": "https://zaplatform.com/#founder"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zaplatform.com/#founder",
+      "name": "Mohamed Zakaria El-Zoghbi",
+      "url": "https://zaplatform.com/",
+      "worksFor": {
+        "@id": "https://zaplatform.com/#org"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://matla.zaplatform.com/#website",
+      "url": "https://matla.zaplatform.com/",
+      "name": "Matla",
+      "alternateName": "مطلع",
+      "inLanguage": [
+        "ar",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://zaplatform.com/#org"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://matla.zaplatform.com/en/#webpage",
+      "url": "https://matla.zaplatform.com/en/",
+      "name": "Matla: Prayer Times, Adhan & Fajr Alarm App for iPhone",
+      "description": "Prayer times with the Egyptian Survey method, an on-time adhan, a real Fajr alarm and an offline mushaf. Free, no ads, no accounts. Arabic app.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://matla.zaplatform.com/#website"
+      },
+      "about": {
+        "@id": "https://matla.zaplatform.com/#app"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://matla.zaplatform.com/img/og-en.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "datePublished": "2026-09-26",
+      "dateModified": "2026-09-27"
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://matla.zaplatform.com/#app",
+      "name": "Matla",
+      "alternateName": [
+        "مطلع",
+        "Matla: Prayer Times & Athan"
+      ],
+      "url": "https://matla.zaplatform.com/",
+      "description": "Prayer times, adhan, a Fajr alarm and the whole mushaf offline, using the Egyptian General Authority of Survey method by default. Free, with no ads and no accounts. The app is in Arabic.",
+      "operatingSystem": "iOS 26.1 or later, watchOS",
+      "applicationCategory": "LifestyleApplication",
+      "applicationSubCategory": "Prayer times",
+      "genre": [
+        "Lifestyle",
+        "Reference"
+      ],
+      "softwareVersion": "1.0.0",
+      "datePublished": "2026-09-27",
+      "fileSize": "214MB",
+      "contentRating": "4+",
+      "inLanguage": "ar",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EGP",
+        "url": "https://apps.apple.com/app/id6813938812"
+      },
+      "downloadUrl": "https://apps.apple.com/app/id6813938812",
+      "installUrl": "https://apps.apple.com/app/id6813938812",
+      "sameAs": [
+        "https://apps.apple.com/eg/app/matla-prayer-times-athan/id6813938812"
+      ],
+      "screenshot": [
+        "https://matla.zaplatform.com/img/shots/today.jpg",
+        "https://matla.zaplatform.com/img/shots/fajr.jpg",
+        "https://matla.zaplatform.com/img/shots/mushaf.jpg"
+      ],
+      "image": "https://matla.zaplatform.com/img/icon-512.png",
+      "featureList": [
+        "Prayer times with the Egyptian General Authority of Survey, Umm al-Qura and Muslim World League methods",
+        "Time Sensitive adhan notifications",
+        "A real Fajr alarm using AlarmKit that rings on silent",
+        "The whole mushaf offline in the King Fahd Complex script",
+        "Recitations from more than thirty reciters, with downloads for offline listening",
+        "Morning and evening athkar, a tasbih counter, the Qibla, and the Hijri calendar",
+        "Widgets, a Live Activity, and an Apple Watch app"
+      ],
+      "author": {
+        "@id": "https://zaplatform.com/#founder"
+      },
+      "publisher": {
+        "@id": "https://zaplatform.com/#org"
+      }
+    }
+  ]
 }
 </script>
 <!-- FAQ-LD: generated from the visible FAQ by tools/gen-faq.py; do not edit by hand -->
@@ -76,6 +170,14 @@
   "@type": "FAQPage",
   "inLanguage": "en",
   "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I download Matla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tap the App Store button at the top of this page, or search for “Matla” or «مطلع» in the App Store on your iPhone. It is free, was released on 27 September 2026, and needs an iPhone on iOS 26.1 or later."
+      }
+    },
     {
       "@type": "Question",
       "name": "Is the app in English?",
@@ -102,6 +204,14 @@
     },
     {
       "@type": "Question",
+      "name": "Does the Fajr alarm ring when my iPhone is on silent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Matla’s Fajr alarm is an iOS system alarm (AlarmKit), not a notification, so it rings on silent or in a Focus, with the adhan voice you choose. It moves with Fajr every day: set once how many minutes before Fajr it wakes you, with an optional wake-up task so you don’t fall back asleep."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Does Matla work offline?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -113,7 +223,7 @@
       "name": "Why doesn't the notification play the whole adhan?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "iOS limits a notification sound to 30 seconds. Matla plays the adhan in the notification, and if you open the app it plays the adhan in full."
+        "text": "iOS limits a notification sound to 30 seconds. Matla plays the first 30 seconds of the adhan in the notification; open the app and it plays the rest."
       }
     },
     {
@@ -126,10 +236,26 @@
     },
     {
       "@type": "Question",
+      "name": "Which prayer-time calculation method does Egypt use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Egypt uses the Egyptian General Authority of Survey method: Fajr when the sun is 19.5° below the horizon, Isha at 17.5°, which puts Fajr a little earlier than the Muslim World League method (18°). Matla uses the Egyptian method by default and calculates on your phone from your location or a city you pick; you can switch to Umm al-Qura or others and adjust each prayer by the minute to match your mosque."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is Matla free?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, completely. No ads, no locked features and no required subscription. You can support it with a one-time or monthly amount if you like, and that unlocks nothing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Matla handle daylight saving time in Egypt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Matla calculates times in your city’s official time zone, so when Egypt moves to or from summer time, the prayer times, the adhan and the Fajr alarm move with it without you changing anything."
       }
     },
     {
@@ -166,7 +292,7 @@
     },
     {
       "@type": "Question",
-      "name": "What does Matla need to run?",
+      "name": "Which iPhones does Matla run on?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An iPhone on iOS 26.1 or later. The watch app works with a paired Apple Watch."
@@ -204,7 +330,7 @@
           <a class="store-live" id="store" href="https://apps.apple.com/app/id6813938812">
             <img src="../img/appstore.svg" alt="Download Matla on the App Store" width="156" height="52">
           </a>
-          <p class="note">Free on iPhone (iOS 26.1 or later) and Apple Watch.</p>
+          <p class="note">Free on the App Store since 27 September 2026, for iPhone (iOS 26.1 or later) and Apple Watch.</p>
         </div>
       </div>
       <div class="mihrab" aria-hidden="true">
@@ -238,12 +364,12 @@
       <div class="qa-list">
         <div class="feat"><h3>Prayer times and adhan</h3><p>Times for your city with the Egyptian General Authority of Survey, Umm al-Qura, Muslim World League and other methods, per-prayer minute adjustments, and an adhan that arrives even when the app is closed. Adhan, a silent alert or nothing, set per prayer.</p></div>
         <div class="feat"><h3>The Fajr alarm</h3><p>An iOS system alarm (AlarmKit) that rings even on silent or in a Focus, with the adhan voice you choose. An optional wake-up task: say the waking dhikr, walk a few steps, or scan a code by the sink. A bedtime reminder worked back from Fajr.</p></div>
-        <div class="feat"><h3>The Quran</h3><p>The whole mushaf in the King Fahd Complex script (1441 AH print) with tajweed colours, offline. Recitations from more than thirty reciters, with the recited ayah followed on the page, and surahs you can download for offline listening.</p></div>
-        <div class="feat"><h3>Athkar, and your own</h3><p>Morning, evening, sleep, waking and after-prayer athkar with a counter and a source for each. Add your own dhikr and duas, which join the end of the morning or evening set. A tasbih counter and the Qibla.</p></div>
+        <div class="feat"><h3>The Quran, offline</h3><p>The whole mushaf in the King Fahd Complex script (1441 AH print) with tajweed colours, offline. Recitations from more than thirty reciters, with the recited ayah followed on the page, and surahs you can download for offline listening.</p></div>
+        <div class="feat"><h3>Morning and evening athkar, and your own</h3><p>Morning, evening, sleep, waking and after-prayer athkar with a counter and a source for each. Add your own dhikr and duas, which join the end of the morning or evening set. A tasbih counter and the Qibla.</p></div>
         <div class="feat"><h3>The Hijri calendar</h3><p>A monthly timetable, the Umm al-Qura calendar with a one- or two-day adjustment, and occasions: Friday and Surat al-Kahf, Sunnah fasts, Ramadan, Laylat al-Qadr and the two Eids, each with its sources.</p></div>
-        <div class="feat"><h3>Live from Makkah</h3><p>Live broadcasts from al-Masjid al-Haram and al-Masjid an-Nabawi through the Saudi Broadcasting Authority's official YouTube channels, and Holy Quran Radio from Cairo.</p></div>
+        <div class="feat"><h3>Live from Makkah and Madinah</h3><p>Live broadcasts from al-Masjid al-Haram and al-Masjid an-Nabawi through the Saudi Broadcasting Authority's official YouTube channels, and Holy Quran Radio from Cairo.</p></div>
         <div class="feat"><h3>Widgets and the Live Activity</h3><p>Home Screen, Lock Screen and StandBy widgets: the next prayer, today's times, the sun's path, an ayah of the day, the Names of Allah and a day companion. An optional Live Activity counts down to the next prayer in the Dynamic Island.</p></div>
-        <div class="feat"><h3>Apple Watch</h3><p>All of today's times on one screen, the Qibla with a compass that tells you when you're facing it, a tasbih on the Digital Crown, and complications. The watch takes your city and settings from the iPhone.</p></div>
+        <div class="feat"><h3>Apple Watch and the Qibla</h3><p>All of today's times on one screen, the Qibla with a compass that tells you when you're facing it, a tasbih on the Digital Crown, and complications. The watch takes your city and settings from the iPhone.</p></div>
       </div>
     </div>
   </section>
@@ -276,7 +402,7 @@
         </div>
         <ul class="ways">
           <li><b>A one-time thank you</b><span>Three amounts to choose from, paid once.</span></li>
-          <li><b>A monthly thank you</b><span>A subscription that renews each month. Cancel any time in your Apple account settings.</span></li>
+          <li><b>A monthly thank you</b><span>A subscription that renews each month. Cancel any time in your Apple account settings. <a href="terms/">Subscription terms</a></span></li>
         </ul>
       </div>
     </div>
@@ -290,6 +416,10 @@
       </div>
       <div class="qa-list">
         <div class="qa">
+          <h3>How do I download Matla?</h3>
+          <p>Tap the App Store button at the top of this page, or search for “Matla” or «مطلع» in the App Store on your iPhone. It is free, was released on 27 September 2026, and needs an iPhone on iOS 26.1 or later.</p>
+        </div>
+        <div class="qa">
           <h3>Is the app in English?</h3>
           <p>No. Matla is in Arabic only. This page is in English for phones set to English, but every screen in the app is Arabic.</p>
         </div>
@@ -302,20 +432,32 @@
           <p>The adhan is a notification, and iOS notifications follow the silent switch: on silent you get the vibration and the banner without sound. Matla's Fajr alarm is an iOS system alarm (AlarmKit), and it rings even on silent or in a Focus. Adhan notifications are Time Sensitive, so they skip the scheduled summary and a Focus if you allow it.</p>
         </div>
         <div class="qa">
+          <h3>Does the Fajr alarm ring when my iPhone is on silent?</h3>
+          <p>Yes. Matla’s Fajr alarm is an iOS system alarm (AlarmKit), not a notification, so it rings on silent or in a Focus, with the adhan voice you choose. It moves with Fajr every day: set once how many minutes before Fajr it wakes you, with an optional wake-up task so you don’t fall back asleep.</p>
+        </div>
+        <div class="qa">
           <h3>Does Matla work offline?</h3>
           <p>Mostly, yes. Prayer times, the adhan, the Fajr alarm, the whole mushaf (1441 AH print), athkar, the Qibla and the calendar all work offline. Recitations need the internet except for surahs you've downloaded, and the live broadcasts and radio always need it.</p>
         </div>
         <div class="qa">
           <h3>Why doesn't the notification play the whole adhan?</h3>
-          <p>iOS limits a notification sound to 30 seconds. Matla plays the adhan in the notification, and if you open the app it plays the adhan in full.</p>
+          <p>iOS limits a notification sound to 30 seconds. Matla plays the first 30 seconds of the adhan in the notification; open the app and it plays the rest.</p>
         </div>
         <div class="qa">
           <h3>Which calculation methods does Matla support?</h3>
           <p>The Egyptian General Authority of Survey (the default), Umm al-Qura, the Muslim World League, the University of Islamic Sciences in Karachi, the Islamic Society of North America and others, with the Asr school and a per-prayer adjustment in minutes.</p>
         </div>
         <div class="qa">
+          <h3>Which prayer-time calculation method does Egypt use?</h3>
+          <p>Egypt uses the Egyptian General Authority of Survey method: Fajr when the sun is 19.5° below the horizon, Isha at 17.5°, which puts Fajr a little earlier than the Muslim World League method (18°). Matla uses the Egyptian method by default and calculates on your phone from your location or a city you pick; you can switch to Umm al-Qura or others and adjust each prayer by the minute to match your mosque.</p>
+        </div>
+        <div class="qa">
           <h3>Is Matla free?</h3>
           <p>Yes, completely. No ads, no locked features and no required subscription. You can support it with a one-time or monthly amount if you like, and that unlocks nothing.</p>
+        </div>
+        <div class="qa">
+          <h3>Does Matla handle daylight saving time in Egypt?</h3>
+          <p>Yes. Matla calculates times in your city’s official time zone, so when Egypt moves to or from summer time, the prayer times, the adhan and the Fajr alarm move with it without you changing anything.</p>
         </div>
         <div class="qa">
           <h3>Does Matla collect my data or location?</h3>
@@ -334,7 +476,7 @@
           <p>Not yet. Matla is for iPhone and Apple Watch. An Android version is designed but not built.</p>
         </div>
         <div class="qa">
-          <h3>What does Matla need to run?</h3>
+          <h3>Which iPhones does Matla run on?</h3>
           <p>An iPhone on iOS 26.1 or later. The watch app works with a paired Apple Watch.</p>
         </div>
       </div>
@@ -347,7 +489,7 @@
         <div>
           <p class="kicker">Support</p>
           <h2 id="support-h">A question, an idea, or a bug?</h2>
-          <p>Write to us. We read every message, in Arabic or English. Matla needs an iPhone on iOS 26.1 or later.</p>
+          <p>Write to us. We read every message, in Arabic or English. Matla is made in Cairo by Mohamed Zakaria El-Zoghbi (ZaPlatform), who reads the mail himself. Matla needs an iPhone on iOS 26.1 or later.</p>
         </div>
         <div class="mail">
           <code id="email">zaplatform@gmail.com</code>
@@ -360,7 +502,7 @@
 
 <footer>
   <div class="wrap">
-    <div class="who"><img src="../img/icon-512.png" alt="" width="28" height="28"><span>Matla · 2026 Mohamed Zakaria El-Zoghbi · <a href="https://zaplatform.com/">ZaPlatform</a></span></div>
+    <div class="who"><img src="../img/icon-512.png" alt="" width="28" height="28"><span>Matla · version 1.0.0 · page updated 27 September 2026 · Mohamed Zakaria El-Zoghbi · <a href="https://zaplatform.com/">ZaPlatform</a></span></div>
     <nav aria-label="Links">
       <a href="privacy/">Privacy policy</a>
       <a href="terms/">Terms of use</a>
