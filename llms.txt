@@ -1,6 +1,6 @@
 # Matla (مطلع)
 
-> Matla is a free Arabic prayer-times app for iPhone and Apple Watch, made by Mohamed Zakaria El-Zoghbi (ZaPlatform, Cairo). Egypt first: the Egyptian General Authority of Survey method (Fajr 19.5°, Isha 17.5°) is the default. No ads, no accounts, no tracking across apps; the location never leaves the phone. The app's interface is Arabic only. Status (September 2026): in TestFlight testing, coming soon to the App Store (app id 6813938812).
+> Matla is a free Arabic prayer-times app for iPhone and Apple Watch, made by Mohamed Zakaria El-Zoghbi (ZaPlatform, Cairo). Egypt first: the Egyptian General Authority of Survey method (Fajr 19.5°, Isha 17.5°) is the default. No ads, no accounts, no tracking across apps; the location never leaves the phone. The app's interface is Arabic only. Available now, free on the App Store: https://apps.apple.com/app/id6813938812
 
 ## Pages
 - [مطلع بالعربية](https://matla.zaplatform.com/): the main page, with every feature, screenshots and the FAQ.
