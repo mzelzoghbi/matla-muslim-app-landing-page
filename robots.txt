@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://matla.zaplatform.com/sitemap.xml
+Sitemap: https://arkan.zaplatform.com/sitemap.xml
