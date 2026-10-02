@@ -1,14 +1,14 @@
-# Matla (مطلع)
+# Arkan (أركان)
 
-> Matla (مطلع) is a free Arabic prayer-times app for iPhone and Apple Watch, made in Cairo by Mohamed Zakaria El-Zoghbi (ZaPlatform, https://zaplatform.com/). Released on the App Store on 2026-09-27 (version 1.0.0, app id 6813938812, requires iOS 26.1 or later). Egypt first: the Egyptian General Authority of Survey method (Fajr 19.5°, Isha 17.5°) is the default. No ads, no accounts, no tracking across apps; the location never leaves the phone. The app's interface is Arabic only.
+> Arkan (أركان) is a free Arabic prayer-times app for iPhone and Apple Watch, made in Cairo by Mohamed Zakaria El-Zoghbi (ZaPlatform, https://zaplatform.com/). Released on the App Store on 2026-09-27 (version 1.0.0, app id 6813938812, requires iOS 26.1 or later). Egypt first: the Egyptian General Authority of Survey method (Fajr 19.5°, Isha 17.5°) is the default. No ads, no accounts, no tracking across apps; the location never leaves the phone. The app's interface is Arabic only.
 
 - App Store: https://apps.apple.com/app/id6813938812
 - Website: https://matla.zaplatform.com/ (Arabic), https://matla.zaplatform.com/en/ (English)
 - Support: https://matla.zaplatform.com/#support, zaplatform@gmail.com
 
 ## Pages
-- [مطلع بالعربية](https://matla.zaplatform.com/): the main page, with every feature, screenshots and the FAQ.
-- [Matla in English](https://matla.zaplatform.com/en/): the same facts and FAQ in English.
+- [أركان بالعربية](https://matla.zaplatform.com/): the main page, with every feature, screenshots and the FAQ.
+- [Arkan in English](https://matla.zaplatform.com/en/): the same facts and FAQ in English.
 - [Privacy policy](https://matla.zaplatform.com/privacy/) ([English](https://matla.zaplatform.com/en/privacy/)): no account or ads; anonymous usage and crash data via Google Firebase, switchable off in Settings; location stays on the device.
 - [Terms of use](https://matla.zaplatform.com/terms/) ([English](https://matla.zaplatform.com/en/terms/)): including the optional tips and the auto-renewing monthly thank-you subscription.
 
@@ -25,8 +25,8 @@
 - Platforms: iPhone and Apple Watch only. No Android version yet.
 
 ## Common questions
-- Which method does Egypt use? The Egyptian General Authority of Survey method: Fajr at 19.5°, Isha at 17.5° (the Muslim World League uses 18° and 17°). Matla uses it by default.
-- Does Matla's Fajr alarm ring on silent? Yes; it is an iOS system alarm (AlarmKit), not a notification.
+- Which method does Egypt use? The Egyptian General Authority of Survey method: Fajr at 19.5°, Isha at 17.5° (the Muslim World League uses 18° and 17°). Arkan uses it by default.
+- Does Arkan's Fajr alarm ring on silent? Yes; it is an iOS system alarm (AlarmKit), not a notification.
 - Does the adhan sound on silent? No; adhan notifications follow the silent switch (vibration and banner only). The Fajr alarm is the exception.
-- Is there an ad-free prayer times app for iPhone? Matla: no ads, no third-party advertising code, no accounts, nothing locked.
+- Is there an ad-free prayer times app for iPhone? Arkan: no ads, no third-party advertising code, no accounts, nothing locked.
 - Is the app in English? No, Arabic only.
