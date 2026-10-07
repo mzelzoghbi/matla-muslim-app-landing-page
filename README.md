@@ -1,6 +1,6 @@
 # arkan.zaplatform.com
 
-The landing page of **مطلع (Matla)**, the free Arabic prayer-times app for iPhone and Apple Watch.
+The landing page of **أركان (Arkan)**, the free Arabic prayer-times app for iPhone and Apple Watch.
 Served by GitHub Pages from `main` at the repo root, custom domain `arkan.zaplatform.com` (`CNAME`).
 
 **Don't edit these files by hand.** They are generated from the design folder

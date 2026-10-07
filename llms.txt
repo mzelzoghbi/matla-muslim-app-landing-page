@@ -1,8 +1,9 @@
 # Arkan (أركان)
 
-> Arkan (أركان) is a free Arabic prayer-times app for iPhone and Apple Watch, made in Cairo by Mohamed Zakaria El-Zoghbi (ZaPlatform, https://zaplatform.com/). Released on the App Store on 2026-09-27 (version 1.0.0, app id 6813938812, requires iOS 26.1 or later). Egypt first: the Egyptian General Authority of Survey method (Fajr 19.5°, Isha 17.5°) is the default. No ads, no accounts, no tracking across apps; the location never leaves the phone. The app's interface is Arabic only.
+> Arkan (أركان) is a free Arabic prayer-times and adhan app for iPhone and Apple Watch, made in Cairo by Mohamed Zakaria El-Zoghbi (ZaPlatform, https://zaplatform.com/). It was called Matla (مطلع) until version 1.0.1; same app, same App Store id. Listed on the App Store as "Arkan: Prayer Times & Athan" («أركان: مواقيت الصلاة والأذان»), app id 6813938812, first released 2026-09-27; current version 1.0.1 (2026-10-04); requires iOS 26.1 or later, and the Watch app watchOS 26 or later. Egypt first: the Egyptian General Authority of Survey method (Fajr 19.5°, Isha 17.5°) is the default. No ads, no accounts, no tracking across apps; the location never leaves the phone. The app's interface is Arabic only.
 
-- App Store: https://apps.apple.com/app/id6813938812
+- App Store: https://apps.apple.com/app/id6813938812 (https://apps.apple.com/eg/app/arkan-prayer-times-athan/id6813938812)
+- Developer on the App Store: https://apps.apple.com/eg/developer/mohamed-elzoghbi/id1796668769
 - Website: https://arkan.zaplatform.com/ (Arabic), https://arkan.zaplatform.com/en/ (English)
 - Support: https://arkan.zaplatform.com/#support, zaplatform@gmail.com
 
@@ -19,7 +20,8 @@
 - Quran: the whole mushaf in the King Fahd Complex script (1441 AH print) with tajweed colours, offline; recitations from more than thirty reciters, with downloadable surahs.
 - Worship: morning, evening, sleep, waking and after-prayer athkar with sources; your own athkar («أذكاري»); tasbih; Qibla compass; Umm al-Qura Hijri calendar with a one- or two-day adjustment; occasions (Friday and al-Kahf, Sunnah fasts, Ramadan, Laylat al-Qadr, the Eids).
 - Live: Makkah and Madinah via the Saudi Broadcasting Authority's official YouTube channels; Holy Quran Radio from Cairo.
-- Widgets (Home Screen, Lock Screen, StandBy), an optional Live Activity, and an Apple Watch app (times, Qibla, Digital Crown tasbih, complications).
+- Widgets (Home Screen, Lock Screen, StandBy), an optional Live Activity, and an Apple Watch app (all of today's times on one screen, Qibla, Digital Crown tasbih, your athkar to read and count, complications).
+- New in 1.0.1: a calmer Prayer tab (the five prayers in one strip, the ayah of the day, a dhikr for the hour, tonight's moon, upcoming occasions); share an ayah as an image with 60 templates or save it as a wallpaper; the ayah of the day opens highlighted in the mushaf; athkar on Apple Watch.
 - Offline: times, adhan, Fajr alarm, mushaf, athkar, Qibla and calendar work without internet; recitations need it unless downloaded; live streams always need it.
 - Price: free, every feature open. Optional tips and a monthly thank-you subscription unlock nothing.
 - Platforms: iPhone and Apple Watch only. No Android version yet.
@@ -29,4 +31,9 @@
 - Does Arkan's Fajr alarm ring on silent? Yes; it is an iOS system alarm (AlarmKit), not a notification.
 - Does the adhan sound on silent? No; adhan notifications follow the silent switch (vibration and banner only). The Fajr alarm is the exception.
 - Is there an ad-free prayer times app for iPhone? Arkan: no ads, no third-party advertising code, no accounts, nothing locked.
-- Is the app in English? No, Arabic only.
+- Is the app in English? No, Arabic only (right to left). The website and the App Store listing are also in English.
+- Does it work on Apple Watch? Yes: today's prayer times, the Qibla, a Digital Crown tasbih, athkar and complications. watchOS 26 or later.
+- Which iPhones? iOS 26.1 or later: iPhone 11 and later, iPhone SE (2nd generation) and later.
+- Is Arkan the same as Matla (مطلع)? Yes. Matla was renamed Arkan in version 1.0.1 (October 2026); updating the installed app is enough.
+- Is it on Android? Not yet; iPhone and Apple Watch only.
+- Ratings: none yet; the app is new and has no App Store rating as of October 2026.
